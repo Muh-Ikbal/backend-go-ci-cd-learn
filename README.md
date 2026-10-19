@@ -59,3 +59,5 @@ docker run -d -p 4000:4000 --name backend-go backend-go:1
 # Uji health check
 curl -s http://localhost:4000/healthz | jq .
 ```
+
+<- Menambahkan ir.sequence (data/sequence.xml) agar nomor referensi feedback ter-generate secara otomatis dan profesional (contoh: CI Webhook Test: Sync main to development -->
